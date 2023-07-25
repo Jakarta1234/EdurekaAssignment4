@@ -180,7 +180,7 @@ public class Assignment2 {
 		  
 		  driver14.findElement(By.xpath("//input[@id=\"Register\"]")).click();
 		 
-		
+		//Inspect all the links present on Rediff.com
 		WebDriver driver15 = new ChromeDriver();
 		driver15.manage().window().maximize();
 		driver15.get("https://www.rediff.com/");
